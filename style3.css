@@ -1,0 +1,84 @@
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:
+                linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+                url("gym-bg3.jpg") center/cover no-repeat;
+            padding: 20px;
+        }
+
+        .success-container {
+            width: 100%;
+            max-width: 520px;
+            background: rgba(255, 255, 255, 0.97);
+            border-radius: 20px;
+            padding: 45px 35px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .success-icon {
+            width: 90px;
+            height: 90px;
+            margin: 0 auto 25px;
+            border-radius: 50%;
+            background: #7b2cbf;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #7b2cbf;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #555;
+            font-size: 17px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .message {
+            margin-bottom: 30px;
+        }
+
+        .home-button {
+            display: inline-block;
+            padding: 14px 30px;
+            background: #7b2cbf;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .home-button:hover {
+            background: #5a189a;
+            transform: translateY(-2px);
+        }
+
+        .details {
+            margin: 25px 0;
+            padding: 15px;
+            background: #f5effb;
+            border-radius: 10px;
+            color: #666;
+            font-size: 14px;
+        }
